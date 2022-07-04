@@ -2,10 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - print last digit of a number as zero, less greater than 5 or less than six
- *
+ * main - print if the number is postive, zero, or negative
  * Description: using the main function
- * this program prints "Last digit is greater than five,zero or less than six and not equal to zero
+ * this program prints "Last digit is greater than five,zero or less than"
  * Return: 0
  */
 int main(void)
