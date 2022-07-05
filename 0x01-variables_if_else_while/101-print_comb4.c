@@ -1,8 +1,8 @@
 #include <stdio.h>
- /**
-  * main - program that prints all possible different combinations of 3 digits.
-  * Return: 0
-  */
+/**
+ * main - program that prints all possible different combinations of 3 digits.
+ * Return: 0
+ */
 int main(void)
 {
 int c = 0;
@@ -26,6 +26,7 @@ if (c != 789)
 {
 putchar(',');
 putchar(' ');
+}
 }
 c++;
 }
