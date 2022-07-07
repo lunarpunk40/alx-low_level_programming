@@ -1,20 +1,16 @@
 #include "main.h"
 
 /**
- * main - check the code for ALX School students.
- *
- * Return: Always 0.
+ * _islower - function to check for lowercase character
+ * @c:  is the int that will use for the argument of the function
+ * Return: 0
  */
-int main(void)
+int _islower(int c)
 {
-int r;
-
-r = _islower('H');
-_putchar(r + '0');
-r = _islower('o');
-_putchar(r + '0');
-r = _islower(108);
-_putchar(r + '0');
-_putchar('\n');
+if (c >= 'a' && c <= 'z')
+{
+return (1);
+}
+else
 return (0);
 }
