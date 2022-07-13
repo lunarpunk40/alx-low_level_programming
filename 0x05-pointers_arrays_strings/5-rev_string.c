@@ -1,5 +1,5 @@
-s (22 sloc) 366 Bytes
 #include <stdio.h>
+
 /**
  * rev_string - function that reverses a string.
  * @s: declaration of *s and paramters for the function
