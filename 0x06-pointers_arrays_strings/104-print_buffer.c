@@ -38,7 +38,7 @@ else if (*(b + index + byte) >= 31 &&
 printf("%c", *(b + index + byte));
 
 else
-printf(".")
+printf(".");
 }
 
 if (byte >= size)
