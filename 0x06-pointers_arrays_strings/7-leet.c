@@ -15,7 +15,7 @@ while (*c)
 {
 for (i = 0; i < sizeof(key) / sizeof(char); i++)
 {
-	 
+
 if (*c == key[i] || *c == key[i] + 32)
 {
 *c = 48 + value[i];
