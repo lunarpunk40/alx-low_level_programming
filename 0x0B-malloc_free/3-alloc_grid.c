@@ -1,8 +1,3 @@
-/*
- * File: 3-alloc_grid.c
- * Auth: Gi Gi
- */
-
 #include "main.h"
 #include <stdlib.h>
 
@@ -16,6 +11,7 @@
  *         Otherwise - a pointer to the 2-dimensional array of integers.
  */
 int **alloc_grid(int width, int height)
+{
 int **twoD;
 int hgt_index, wid_index;
 
@@ -37,7 +33,8 @@ for (; hgt_index >= 0; hgt_index--)
 free(twoD[hgt_index]);
 
 free(twoD);
-return (NULL);}
+return (NULL);
+}
 }
 
 for (hgt_index = 0; hgt_index < height; hgt_index++)

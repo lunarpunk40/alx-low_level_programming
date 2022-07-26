@@ -1,8 +1,3 @@
-/*
- * File: 4-free_grid.c
- * Auth: Gigi
- */
-
 #include "main.h"
 #include <stdlib.h>
 
