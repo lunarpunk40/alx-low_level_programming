@@ -21,7 +21,8 @@ while ((*head)->next != NULL)
 ahead = (*head)->next;
 (*head)->next = behind;
 behind = *head;
-*head = ahead}
+*head = ahead;
+}
 
 (*head)->next = behind;
 
